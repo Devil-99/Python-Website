@@ -37,15 +37,26 @@ html,body{
     font-size: 27px;
     letter-spacing: 8px;    
 }
+@media screen and (max-width: 500px) {
+    .textbg{
+    font-size: 15px;
+    }
+}
 .textbg{
     background: #313534;
     color: aliceblue;
     padding: 20px;
+    
 }
 .section{
     padding: 50px 80px;
     text-align: center;
 
+}
+@media only screen and (min-width: 500px) {
+    .section-light{
+    font-size: 20px;
+    }
 }
 .section-light{
     background-color: #282e34;
